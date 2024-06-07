@@ -1,3 +1,4 @@
+import PatelotNavBar from "./components/PatelotNavBar";
 
 
 
@@ -8,9 +9,12 @@ function App() {
 
   // rendeer
   return (
-    <div className="container mx-auto">
-      
-    </div>
+    <>
+      <PatelotNavBar />
+      <div className="container mx-auto">
+
+      </div>
+    </>
   );
 }
 
